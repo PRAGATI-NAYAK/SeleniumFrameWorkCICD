@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: AutomationTesting.Cucumber.CucumberTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 95.83 s <<< FAILURE! -- in AutomationTesting.Cucumber.CucumberTestRunner
+AutomationTesting.Cucumber.CucumberTestRunner.runScenario["add an item to cart and submit order", "Submit Order"](1) -- Time elapsed: 89.85 s <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button _ngcontent-jvo-c34="" class="btn w-10 rounded" style="float: right;">...</button> is not clickable at point (563, 444). Other element would receive the click: <div _ngcontent-jvo-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c6fb990797d0f9c6930a0d8e8a67f1a, clickElement {id=f.D45A7052846F3E0F34EA92FD61FCA3C1.d.DDBB9886B88CF2A13D38D195467641E0.e.67}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57525}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57525/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on windows (7c6fb990797d0f9c6930a0d8e8a67f1a)] -> css selector: .mb-3]] -> css selector: .card-body button:last-of-type]
+Session ID: 7c6fb990797d0f9c6930a0d8e8a67f1a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at AutomationTesting.PageObjects.CatalogPage.addToCart(CatalogPage.java:51)
+	at AutomationTesting.StepDefinitions.StepDefinitionImplementations.I_added_product_to_cart(StepDefinitionImplementations.java:46)
+	at ✽.I added ZARA COAT 3 to cart(file:///C:/Users/admin/eclipse-workspace/SeleniumTestNGFramework/src/test/java/AutomationTesting/Cucumber/TestCases.feature:9)
+

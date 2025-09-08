@@ -1,0 +1,7 @@
+AutomationTesting\PageObjects\CatalogPage.class
+AutomationTesting\PageObjects\OrderConfirmationPage.class
+AutomationTesting\PageObjects\CartPage.class
+AutomationTesting\PageObjects\LandingPage.class
+AutomationTesting\Utility\Utility.class
+AutomationTesting\Resources\ExtentReport.class
+AutomationTesting\PageObjects\CheckOutPage.class

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="All 
+Suite">
+<listeners>
+<listener class-name="AutomationTesting.TestingComponents.TestCaseListeners"/>
+</listeners>
+  <test thread-count="2" name="TestCase">
+    <classes>
+      <class name="AutomationTesting.TestCases.TestCases"/>
+      </classes>
+      </test>
+      <test thread-count="2" name="Validation">
+      <classes>
+      <class name="AutomationTesting.TestCases.Validation"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

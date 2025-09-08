@@ -1,0 +1,10 @@
+AutomationTesting\TestCases\StandAloneProject.class
+AutomationTesting\StepDefinitions\StepDefinitionImplementations.class
+AutomationTesting\TestingComponents\TestCaseListeners.class
+AutomationTesting\TestCases\Validation.class
+AutomationTesting\Cucumber\CucumberTestRunner.class
+AutomationTesting\TestingComponents\Base.class
+AutomationTesting\TestingComponents\Base$1.class
+AutomationTesting\Data\DataReader.class
+AutomationTesting\TestCases\TestCases.class
+AutomationTesting\TestingComponents\Retry.class
